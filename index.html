@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>i-made-this</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+      <!--Add "success" class to container element for success screen -->
+      <div class="container">
+
+            <!--Initial -->
+
+          <div class="screen initial " >
+
+                <h1>What did you make today?</h1>
+                <p>Drop your file here to upload</p>
+                <div class="dropbox"></div>
+                <button class="btn transparent">Upload file</button>
+              </div>
+
+          <div class="overlay hide ">
+            <a href="#" class=" close "></a>
+
+            <!--Preview -->
+            <div class="hide">
+
+              <div class=" preview clear-top shadow error">
+                <span class="file-name">my-image.jpeg</span>
+                <img class="" src="img/sample.png" />
+                <span class="file-type hide">JS</div
+              </div>
+              <p>This file has not yet been time stamped in the blockchain would you like to timestamp it?</p>
+              <button class="btn green">Stamp it!</button>
+          </div>
+
+            <!--Scan Screen-->
+            <div class="hide">
+              <h1>Stamp it!</h1>
+              <div class="panel scan shadow ">
+                <img src="img/qr.png" />
+              </div>
+              <p>To timestamp this file into the blockchain, use your favorite wallet to send 0.001 BTC to this address.</p>
+            </div>
+
+            <!--Success Screen-->
+            <div class="hide">
+                <h1>Success</h1>
+              <div class="panel success shadow">
+                <img src="img/check.svg" />
+                <p>Congratulations! You’ve successfuly timestamped your file into the blockchain.</p>
+              </div>
+              <button class="btn transparent">Stamp another File</button>
+            </div>
+          </div>
+      </div>
+
+
+
+
+    </body>
+</html>
